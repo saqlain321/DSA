@@ -26,7 +26,8 @@ Delete: Remove the key and restructure the tree to maintain balance by borrowing
 merging nodes.
 
 B+ Trees
-Structure: A B+ Tree is an extension of a B-Tree, where all values are at the leaf level and internal nodes only store keys.
+Structure: A B+ Tree is an extension of a B-Tree, where all values are at the leaf level 
+and internal nodes only store keys.
 
 Properties:
 
