@@ -35,7 +35,9 @@ Leaf nodes contain the actual values and pointers to the next leaf node, forming
 linked list.
 All leaf nodes are at the same level.
 
-B+ Trees maintain a higher fan-out (more keys per node), leading to a more shallow tree and thus faster search operations.
+B+ Trees maintain a higher fan-out (more keys per node), leading to a more shallow tree
+ 
+ and thus faster search operations.
 Operations:
 
 Search: Similar to B-Tree, but always ends at a leaf node, where actual values are found.
